@@ -5,19 +5,18 @@
 	<title>Restauracja</title>
 	<meta name="description" content="Restauracja Bielsko-Biała jedzenie ">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<link rel="stylesheet" type="text/css" href="style.css">
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+	<link rel="stylesheet" type="text/css" href="css/lightbox.min.css">
+	<script type="text/javascript" src="js/lightbox-plus-jquery.min.js"></script>
 	<link href="https://fonts.googleapis.com/css?family=Germania+One" rel="stylesheet">
 </head>
 <body>
-	<header class="header">
-		<a class="new-site" href="https://www.google.pl/maps/place/Szpilka/@49.8208737,19.0406665,17z/data=!3m1!4b1!4m5!3m4!1s0x4716a1d8ffdd768f:0x85e4d50592ff7ffb!8m2!3d49.8208703!4d19.0428552" target="_blank">Rynek 29, 43-300 Bielsko-Biała</a>
-	</header>
 	<nav class="sticky">
-	<label for="show-menu" class="show-menu">Show Menu</label>
+	<label for="show-menu" class="show-menu">Pokaż menu</label>
 	<input type="checkbox" id="show-menu" role="button">
 		<ul id="menu">
 			<li><a href="#">Strona Główna</a></li>
-			<li><a href="#About">Menu</a>
+			<li><a href="#starters">Menu</a>
 				<ul class="hidden">
 					<li><a href="#starters">Przystawki</a></li>
 					<li><a href="#main-dishes">Dania Główne</a></li>
@@ -31,19 +30,41 @@
 					<li><a href="#">Rezerwój restauracje</a></li>
 				</ul>
 			</li>
-			<li><a href="#">Galeria</a></li>
+			<li><a href="#gallery">Galeria</a></li>
 			<li><a href="#">Kariera</a></li>
-			<li><a href="#">Kontact</a></li>
+			<li><a href="#">Kontakt</a></li>
 		</ul>
 	</nav>
 	<div class="background">
 		<h1>Zapraszamy do kulinarnego raju</h1>
 	</div>
 	<div class="menu">
-		<img class="pictures" id="starters" src="img/brusch.jpg">
-		<img class="pictures" id="main-dishes" src="img/salmon.jpg">
-		<img class="pictures" id="desert" src="img/desert.jpg">
-		<img class="pictures" id="alkohols" src="img/alkohols.jpg">
+		<img class="pictures" id="starters" src="css/img/brusch.jpg">
+		<img class="pictures" id="main-dishes" src="css/img/salmon.jpg">
+		<img class="pictures" id="desert" src="css/img/desert.jpg">
+		<img class="pictures" id="alkohols" src="css/img/alkohols.jpg">
+	</div>
+		<div id="gallery" class="gallery"><h1>Galeria</h1>
+		<a href="css/gallery/alkohols.jpg" data-lightbox="mygallery" data-title="Alkohole"><img src="css/gallery/alkohols-small.jpg"></a>
+		<a href="css/gallery/back1.jpg" data-lightbox="mygallery" data-title="Frytki z bułką"><img src="css/gallery/back1-small.jpg"></a>
+		<a href="css/gallery/back2.jpg" data-lightbox="mygallery" data-title="Burger bazyliowy"><img src="css/gallery/back2-small.jpg"></a>
+		<a href="css/gallery/back3.jpg" data-lightbox="mygallery" data-title="Babeczka z kremem"><img src="css/gallery/back3-small.jpg"></a>
+		<a href="css/gallery/brusch.jpg" data-lightbox="mygallery" data-title="Bruschetta"><img src="css/gallery/brusch-small.jpg"></a>
+		<a href="css/gallery/coctail.jpg" data-lightbox="mygallery" data-title="Zielony Coctail"><img src="css/gallery/coctail-small.jpg"></a>
+		<a href="css/gallery/desert.jpg" data-lightbox="mygallery" data-title="Panacota"><img src="css/gallery/desert-small.jpg"></a>
+		<a href="css/gallery/desert2.jpg" data-lightbox="mygallery" data-title="Ciasteczka"><img src="css/gallery/desert2-small.jpg"></a>
+		<a href="css/gallery/food.jpg" data-lightbox="mygallery" data-title="Starter"><img src="css/gallery/food-small.jpg"></a>
+		<a href="css/gallery/pancakes.jpg" data-lightbox="mygallery" data-title="Naleśniki"><img src="css/gallery/pancakes-small.jpg"></a>
+		<a href="css/gallery/pizza.jpg" data-lightbox="mygallery" data-title="Pizza"><img src="css/gallery/pizza-small.jpg"></a>
+		<a href="css/gallery/salmon.jpg" data-lightbox="mygallery" data-title="Łosoś"><img src="css/gallery/salmon-small.jpg"></a>
+		<a href="css/gallery/salmon2.jpg" data-lightbox="mygallery" data-title="Łosoś 2"><img src="css/gallery/salmon2-small.jpg"></a>
+		<a href="css/gallery/tea.jpg" data-lightbox="mygallery" data-title="Herbata"><img src="css/gallery/tea-small.jpg"></a>
+		<a href="css/gallery/vegetables.jpg" data-lightbox="mygallery" data-title="Warzywa"><img src="css/gallery/vegetables-small.jpg"></a>
+		<a href="css/gallery/water.jpg" data-lightbox="mygallery" data-title="Woda"><img src="css/gallery/water-small.jpg"></a>
+	</div>
+
+	<div>
+		<a class="new-site" href="https://www.google.pl/maps/place/Szpilka/@49.8208737,19.0406665,17z/data=!3m1!4b1!4m5!3m4!1s0x4716a1d8ffdd768f:0x85e4d50592ff7ffb!8m2!3d49.8208703!4d19.0428552" target="_blank">Rynek 29, 43-300 Bielsko-Biała</a>
 	</div>
 	<footer class="footer">
 		<p>Made by Marcin Matejko 2019</p>
