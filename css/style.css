@@ -1,9 +1,3 @@
-.sticky {
-    position: fixed;
-    top: 0px;
-    width: 100%
-}
-
  .background {
  	background-image: url("img/back2.jpg");
  	background-size: cover;
@@ -35,6 +29,7 @@
 h2 {
 	text-align: center;
 	font-family: 'Ubuntu', sans-serif;
+	margin-top: 0px;
 }
 
 h3 {
@@ -59,21 +54,46 @@ h3 {
 	align-items: center;
 
 }
+
+.dishes__names:hover {
+	background-color: #19c589;
+	cursor: default;
+	padding: 5px;
+}
+
 .box {
 	padding: 25px;
 	margin: 15px;
 	border-radius: 50px;
 	text-align: center;
+	width: 60%;
 /*	opacity: 0.8;*/
 }
-
+p {
+	font-family: 'Ubuntu', sans-serif;
+	opacity: 1;
+}
+@media screen and (max-width: 865px) {
+.box {
+	width: 90%; 
+}
+}
 .box--starters {
 	background-image: url("img/starter.jpg");
+/*	filter: grayscale(50%);*/
 }
 .box--main {
 	background-image: url("img/salmon.jpg");
 }
-
+.box--deserts {
+	background-image: url(img/desert.jpg);
+}
+.box--hot-drinks {
+	background-image: url(img/tea.jpg);
+}
+.box--cold-drinks {
+	background-image: url(img/drinks.jpg);
+}
 /* gallery ----------------------------------------------*/
 .gallery {
 	margin: 10px 30px;
@@ -100,6 +120,13 @@ h3 {
 }
 
 /*NAVBAR------------------------------------------------------------------*/
+.sticky {
+    position: fixed;
+    top: 0px;
+    width: 100%;
+/*    display: flex;
+    justify-content: center;*/
+}
 /*Strip the ul of padding and list styling--------------------------------*/
 ul {
 	list-style-type: none;
