@@ -5,11 +5,13 @@
 	<title>Restauracja</title>
 	<meta name="description" content="Restauracja Bielsko-Biała jedzenie ">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
 	<link rel="stylesheet" type="text/css" href="css/style.css">
 	<link rel="stylesheet" type="text/css" href="css/lightbox.min.css">
 	<script type="text/javascript" src="js/lightbox-plus-jquery.min.js"></script>
 	<link href="https://fonts.googleapis.com/css?family=Germania+One" rel="stylesheet">
 	<link href="https://fonts.googleapis.com/css?family=Ubuntu" rel="stylesheet">
+	
 </head>
 <body>
 	<nav class="sticky">
@@ -22,7 +24,8 @@
 					<li><a href="#starters">Przystawki</a></li>
 					<li><a href="#main-dishes">Dania Główne</a></li>
 					<li><a href="#deserts">Desery</a></li>
-					<li><a href="#alkohols">Alkohole</a></li>
+					<li><a href="#hot-drinks">Napoje gorące</a></li>
+					<li><a href="#cold-drinks">Napoje zimne</a></li>
 				</ul>
 			</li>
 			<li><a href="#">Rezerwacje</a>
@@ -32,7 +35,7 @@
 				</ul>
 			</li>
 			<li><a href="#gallery">Galeria</a></li>
-			<li><a href="#">Kariera</a></li>
+			<li><a href="#carrier">Kariera</a></li>
 			<li><a href="#">Kontakt</a></li>
 		</ul>
 	</nav>
@@ -129,27 +132,55 @@
 			</div>
 		</div>
 
-		<img class="pictures" id="alkohols" src="css/img/alkohols.jpg">
 	</div>
-		<div id="gallery" class="gallery"><h1>Galeria</h1>
-		<a href="css/gallery/alkohols.jpg" data-lightbox="mygallery" data-title="Alkohole"><img src="css/gallery/alkohols-small.jpg"></a>
-		<a href="css/gallery/back1.jpg" data-lightbox="mygallery" data-title="Frytki z bułką"><img src="css/gallery/back1-small.jpg"></a>
-		<a href="css/gallery/back2.jpg" data-lightbox="mygallery" data-title="Burger bazyliowy"><img src="css/gallery/back2-small.jpg"></a>
-		<a href="css/gallery/back3.jpg" data-lightbox="mygallery" data-title="Babeczka z kremem"><img src="css/gallery/back3-small.jpg"></a>
-		<a href="css/gallery/brusch.jpg" data-lightbox="mygallery" data-title="Bruschetta"><img src="css/gallery/brusch-small.jpg"></a>
-		<a href="css/gallery/coctail.jpg" data-lightbox="mygallery" data-title="Zielony Coctail"><img src="css/gallery/coctail-small.jpg"></a>
-		<a href="css/gallery/desert.jpg" data-lightbox="mygallery" data-title="Panacota"><img src="css/gallery/desert-small.jpg"></a>
-		<a href="css/gallery/desert2.jpg" data-lightbox="mygallery" data-title="Ciasteczka"><img src="css/gallery/desert2-small.jpg"></a>
-		<a href="css/gallery/food.jpg" data-lightbox="mygallery" data-title="Starter"><img src="css/gallery/food-small.jpg"></a>
-		<a href="css/gallery/pancakes.jpg" data-lightbox="mygallery" data-title="Naleśniki"><img src="css/gallery/pancakes-small.jpg"></a>
-		<a href="css/gallery/pizza.jpg" data-lightbox="mygallery" data-title="Pizza"><img src="css/gallery/pizza-small.jpg"></a>
-		<a href="css/gallery/salmon.jpg" data-lightbox="mygallery" data-title="Łosoś"><img src="css/gallery/salmon-small.jpg"></a>
-		<a href="css/gallery/salmon2.jpg" data-lightbox="mygallery" data-title="Łosoś 2"><img src="css/gallery/salmon2-small.jpg"></a>
-		<a href="css/gallery/tea.jpg" data-lightbox="mygallery" data-title="Herbata"><img src="css/gallery/tea-small.jpg"></a>
-		<a href="css/gallery/vegetables.jpg" data-lightbox="mygallery" data-title="Warzywa"><img src="css/gallery/vegetables-small.jpg"></a>
-		<a href="css/gallery/water.jpg" data-lightbox="mygallery" data-title="Woda"><img src="css/gallery/water-small.jpg"></a>
+		<div id="gallery">
+			<h1>Galeria</h1>
+			<div class="gallery">
+			<a href="css/gallery/alkohols.jpg" data-lightbox="mygallery" data-title="Alkohole"><img src="css/gallery/alkohols-small.jpg"></a>
+			<a href="css/gallery/back1.jpg" data-lightbox="mygallery" data-title="Frytki z bułką"><img src="css/gallery/back1-small.jpg"></a>
+			<a href="css/gallery/back2.jpg" data-lightbox="mygallery" data-title="Burger bazyliowy"><img src="css/gallery/back2-small.jpg"></a>
+			<a href="css/gallery/back3.jpg" data-lightbox="mygallery" data-title="Babeczka z kremem"><img src="css/gallery/back3-small.jpg"></a>
+			<a href="css/gallery/brusch.jpg" data-lightbox="mygallery" data-title="Bruschetta"><img src="css/gallery/brusch-small.jpg"></a>
+			<a href="css/gallery/coctail.jpg" data-lightbox="mygallery" data-title="Zielony Coctail"><img src="css/gallery/coctail-small.jpg"></a>
+			<a href="css/gallery/desert.jpg" data-lightbox="mygallery" data-title="Panacota"><img src="css/gallery/desert-small.jpg"></a>
+			<a href="css/gallery/desert2.jpg" data-lightbox="mygallery" data-title="Ciasteczka"><img src="css/gallery/desert2-small.jpg"></a>
+			<a href="css/gallery/food.jpg" data-lightbox="mygallery" data-title="Starter"><img src="css/gallery/food-small.jpg"></a>
+			<a href="css/gallery/pancakes.jpg" data-lightbox="mygallery" data-title="Naleśniki"><img src="css/gallery/pancakes-small.jpg"></a>
+			<a href="css/gallery/pizza.jpg" data-lightbox="mygallery" data-title="Pizza"><img src="css/gallery/pizza-small.jpg"></a>
+			<a href="css/gallery/salmon.jpg" data-lightbox="mygallery" data-title="Łosoś"><img src="css/gallery/salmon-small.jpg"></a>
+			<a href="css/gallery/salmon2.jpg" data-lightbox="mygallery" data-title="Łosoś 2"><img src="css/gallery/salmon2-small.jpg"></a>
+			<a href="css/gallery/tea.jpg" data-lightbox="mygallery" data-title="Herbata"><img src="css/gallery/tea-small.jpg"></a>
+			<a href="css/gallery/vegetables.jpg" data-lightbox="mygallery" data-title="Warzywa"><img src="css/gallery/vegetables-small.jpg"></a>
+			<a href="css/gallery/water.jpg" data-lightbox="mygallery" data-title="Woda"><img src="css/gallery/water-small.jpg"></a>
+		</div>
 	</div>
 
+	<div class="carrier" id="carrier">
+		<form>
+			<p class="carrier__text">Prześlij nam wypełniony formularz, a na pewno się z tobą skontaktujemy.</p>
+			<p class="carrier__text">Pola oznaczone * są wymagane.</p>
+			*Imię: <input type="text" required="" name="firstName"><br>
+			Nazwisko: <input type="text" name="secondName"><br>
+			*E-mail: <input type="email" required name="email"><br>
+			Numer telefonu: <input type="tel" name="usrtel"><br>
+			*Data urodzenia: <input type="date" required="" name="birthday"><br>
+			<div class="gender">*Płeć: <br>
+			<input type="radio" required="" name="gender" value="male">Mężczyzna<br>
+			<input type="radio" required="" name="gender" value="female">Kobieta<br>
+			</div><br>
+			*Stanowisko:<select required="" name="position">
+				<option value="kucharz" name="kucharz">Kucharz/Kucharka</option>
+				<option value="kelner" name="kelner">Kelner/Kelnerka</option>
+				<option value="recepcja" name="recepcja">Recepcja</option>
+			</select><br>
+			Jeżeli chcesz dodaj swoje CV
+			<input type="file" name="CV"><br>
+			<div class="name">
+			<button class="btn btn1" type="Submit" value="Wyślij formularz">Wyślij formularz</button>
+			<button class="btn btn3" type="reset">Zresetuj</button>
+			</div>
+		</form>
+	</div>
 	<footer class="footer">
 		<p>Made by Marcin Matejko 2019</p>
 	</footer>

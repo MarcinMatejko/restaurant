@@ -1,4 +1,4 @@
- .background {
+.background {
  	background-image: url("img/back2.jpg");
  	background-size: cover;
  	max-width: 100%;
@@ -11,12 +11,6 @@
  	font-family: 'Germania One', cursive;
  	font-size: 5vh;
  	color: white;
- }
-
- .pictures {
-  	background-size: cover;
- 	height: 100vh;
- 	max-width: 100%;	
  }
 
  /*menu--------------------------------------------------*/
@@ -97,6 +91,9 @@ p {
 /* gallery ----------------------------------------------*/
 .gallery {
 	margin: 10px 30px;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
 }
 
 .gallery img {
@@ -108,6 +105,61 @@ p {
 .gallery img:hover {
 	transform: scale(1.1);
 	filter: none;
+}
+
+@media screen and (max-width: 865px) {
+.gallery {
+	margin: 5px 10px;
+}
+
+.gallery img {
+	width: 150px;
+}
+}
+/*carrier-------------------------------------------------*/
+.carrier {
+	display: flex;
+	justify-content: center;
+	font-family: 'Roboto Mono', monospace;
+	margin: 25px;
+}
+
+form {
+	padding: 25px;
+	border: 0.5em solid #2f3036;
+	border-radius: 25px;
+	background-color: #19c589;
+	display: flex;
+	flex-direction: column;
+	justify-content: flex-end;
+	width: 600px;
+}
+
+/*buttons---------------------------------------*/
+.btn {
+	border: 1px solid #3498bd;
+	background-color: #3498bd;
+	padding: 10px 20px;
+	font-size: 20px;
+	font-family: "montserrat";
+	cursor: pointer;
+	margin: 10px;
+	transition: 0.8s;
+	position: relative;
+	overflow: hidden;
+}
+
+.btn1, .btn2 {
+	color: #3498bd;
+}
+.btn3, .btn4 {
+	color: #fff;
+}
+.btn1:hover, .btn2:hover {
+	color: #fff;
+}
+.btn3:hover, .btn4:hover {
+	color: #3498bd;
 }
 
 /*footer-------------------------------------------------*/
