@@ -29,11 +29,12 @@
 			</li>
 			<li><a href="#gallery">Galeria</a></li>
 			<li><a href="#carrier">Kariera</a></li>
-			<li><a href="#">Kontakt</a></li>
+			<li><a href="#contact">Kontakt</a></li>
 		</ul>
 	</nav>
 	<div class="background">
-		<h1 class="animated rotateInDownLeft delay-1s">Zapraszamy do kulinarnego raju</h1>
+		<h1 class="animated rotateInDownLeft delay-1s">Restauracja Pyszna</h1>
+		<h1 class="animated rotateInUpRight delay-2s">Zapraszamy do kulinarnego raju</h1>
 	</div>
 	<div>
 		<div>
@@ -149,32 +150,57 @@
 		</div>
 	</div>
 	<h1 class="menu__title menu__title--carrier" id="carrier">Kariera</h1><br>
-		<div class="carrier">
-			<form>
-				<p class="carrier__text">Jeżeli jesteś zainteresowany/a pracą w naszej restauracji, prześlij nam wypełniony przez siebie formularz. Jeżeli będziemy szukali nowym pracowników do naszego zespołu, możliwe że skontaktujemy się właśnie z Tobą.</p>
-				<p class="carrier__text">Pola oznaczone * są wymagane.</p>
-				*Imię: <input type="text" required="" name="firstName"><br>
-				Nazwisko: <input type="text" name="secondName"><br>
-				*E-mail: <input type="email" required name="email"><br>
-				Numer telefonu: <input type="tel" name="usrtel"><br>
-				*Data urodzenia: <input type="date" required="" name="birthday"><br>
-				<div class="gender">*Płeć: <br>
-				<input type="radio" required="" name="gender" value="male">Mężczyzna<br>
-				<input type="radio" required="" name="gender" value="female">Kobieta<br>
-				</div><br>
-				*Stanowisko:<select required="" name="position">
-					<option value="kucharz" name="kucharz">Kucharz/Kucharka</option>
-					<option value="kelner" name="kelner">Kelner/Kelnerka</option>
-					<option value="recepcja" name="recepcja">Recepcja</option>
-				</select><br>
-				Jeżeli chcesz dodaj swoje CV
-				<input type="file" name="CV"><br>
-				<div class="buttons">
-				<button class="btn btn1" type="Submit" value="Wyślij formularz">Wyślij formularz</button>
-				<button class="btn btn2" type="reset">Zresetuj</button>
-				</div>
-			</form>
+	<div class="carrier">
+		<form>
+			<p class="carrier__text">Jeżeli jesteś zainteresowany/a pracą w naszej restauracji, prześlij nam wypełniony przez siebie formularz. Jeżeli będziemy szukali nowych pracowników do naszego zespołu, możliwe że skontaktujemy się właśnie z Tobą.</p>
+			<p class="carrier__text">Pola oznaczone * są wymagane.</p>
+			*Imię: <input type="text" required="" name="firstName"><br>
+			Nazwisko: <input type="text" name="secondName"><br>
+			*E-mail: <input type="email" required name="email"><br>
+			Numer telefonu: <input type="tel" name="usrtel"><br>
+			*Data urodzenia: <input type="date" required="" name="birthday"><br>
+			<div class="gender">*Płeć: <br>
+			<input type="radio" required="" name="gender" value="male">Mężczyzna<br>
+			<input type="radio" required="" name="gender" value="female">Kobieta<br>
+			</div><br>
+			*Stanowisko:<select required="" name="position">
+				<option value="kucharz" name="kucharz">Kucharz/Kucharka</option>
+				<option value="kelner" name="kelner">Kelner/Kelnerka</option>
+				<option value="recepcja" name="recepcja">Recepcja</option>
+			</select><br>
+			Jeżeli chcesz dodaj swoje CV
+			<input type="file" name="CV"><br>
+			<textarea name="SubmitMessage" id="Contact-SubmitMessage" class=" form-control " placeholder="Treść wiadomości*" required="required"></textarea>
+			<div class="buttons">
+			<button class="btn btn1" type="Submit" value="Wyślij formularz">Wyślij formularz</button>
+			<button class="btn btn2" type="reset">Zresetuj</button>
+			</div>
+		</form>
+	</div>
+	<div id="contact">
+		<h1 class="menu__title">Kontakt</h1>
+		<div class="contact">
+			<div>
+				<h2>Restauracja Pyszna</h2>
+				<p>Pyszności 13, 43-300 Bielsko-Biała</p>
+				<p>+48 736 643 949</p>
+				<p>matejko.tsp@gmail.com</p>
+				<p>NIP: 0123456789</p>
+			</div>
+			<div>
+				<h2>Rezerwacje</h2>
+				<p>+48 736 643 949</p>
+				<p>+48 123 456 789</p>
+				<p>matejko.tsp@gmail.com</p>
+			</div>
+			<div>
+				<h2>Godziny otwarcia</h2>
+				<p>Poniedziałek - Czwartek 12:00 - 22:00</p>
+				<p>Piątek - Sobota 12:00 - 23:30</p>
+				<p>Niedziela 10:00 - 22:00</p>
+			</div>
 		</div>
+	</div>
 	<footer class="footer">
 		<p>Made by Marcin Matejko 2019</p>
 	</footer>

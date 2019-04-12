@@ -109,16 +109,16 @@ p {
 	background-color: #d1f3e7;
 }
 .box--main {
-	background-color: #a3e7cf;
+	background-color: #baeddb;
 }
 .box--deserts {
-	background-color: #75dcb8;
+	background-color: #a3e7cf;
 }
 .box--hot-drinks {
-	background-color: #46d0a0;
+	background-color: #8ce2c4;
 }
 .box--cold-drinks {
-	background-color: #19c589;
+	background-color: #75dcb8;
 }
 /* gallery ----------------------------------------------*/
 .gallery {
@@ -229,6 +229,11 @@ form {
 }
 }
 
+.contact {
+	display: flex;
+	justify-content: space-around;
+
+}
 /*footer-------------------------------------------------*/
 .footer {
 	bottom: 0px;
