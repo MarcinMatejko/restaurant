@@ -12,6 +12,7 @@ body {
  	display: flex;
  	justify-content: center;
  	align-items: center;
+ 	flex-direction: column;
  	font-family: 'Germania One', cursive;
  	font-size: 5vh;
  	color: white;
@@ -234,14 +235,22 @@ form {
 	justify-content: space-around;
 
 }
+
+.page-start {
+	text-decoration: none;
+	color: black;
+}
 /*footer-------------------------------------------------*/
 .footer {
 	bottom: 0px;
 	width: 100%;
 	height: 40px;
 	background-color: #2f3036;
-	text-align: center;
+	display: flex;
+	justify-content: center;
+	align-items: center;
 }
+
 
 /*NAVBAR------------------------------------------------------------------*/
 .sticky {
