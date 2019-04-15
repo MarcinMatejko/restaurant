@@ -234,12 +234,21 @@ form {
 .contact {
 	display: flex;
 	justify-content: space-around;
+}
 
+@media screen and (max-width: 865px) {
+.contact {
+	display: flex;
+	flex-direction: column;
+	justify-content: flex-end;
+	text-align: center;
+}
 }
 
 .page-start {
 	text-decoration: none;
 	color: black;
+	margin: 15px;
 }
 /*footer-------------------------------------------------*/
 .footer {
