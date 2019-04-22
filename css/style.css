@@ -35,6 +35,12 @@ h3 {
 	font-family: 'Ubuntu', sans-serif;
 }
 
+@media screen and (max-width: 865px) {
+h1 {
+	font-size: 40px;
+}
+}
+
 .menu__title {
 	text-align: center;
  	font-family: 'Ubuntu', sans-serif;
@@ -153,6 +159,17 @@ p {
 	width: 150px;
 }
 }
+
+@media screen and (max-width: 465px) {
+.gallery {
+	margin: 5px 10px;
+}
+
+.gallery img {
+	width: 150px;
+	padding: 5px;
+}
+}
 /*carrier-------------------------------------------------*/
 .carrier {
 	display: flex;
@@ -220,7 +237,7 @@ form {
 .btn {
 	background-color:#fff;
 	padding: 5px 10px;
-	font-size: 20px;
+	font-size: 15px;
 	font-family: 'Roboto Mono', monospace;
 	cursor: pointer;
 	margin: 5px;
