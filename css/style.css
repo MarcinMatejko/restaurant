@@ -415,7 +415,7 @@ li:hover ul li a {
 	}
 	/*Create vertical spacing*/
 	li {
-		margin-bottom: 1px;
+		/*margin-bottom: 1px;*/
 	}
 	/*Make all menu links full width*/
 	ul li, li a {
