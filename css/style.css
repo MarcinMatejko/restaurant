@@ -190,6 +190,9 @@ p {
 	grid-template-rows: 50px 50px 50px 50px 50px;
 }
 
+.carrier--position {
+	padding-top: 20px;
+}
 @media screen and (max-width: 905px) {
 .carrier {
 	padding: 25px;
