@@ -155,30 +155,33 @@
 	<section>
 		<h1 class="menu__title menu__title--carrier" id="carrier">Kariera</h1><br>
 		<div class="carrier">
-			<form>
+			<div class="form">
 				<p class="carrier__text">Jeżeli jesteś zainteresowany/a pracą w naszej restauracji, prześlij nam wypełniony przez siebie formularz. Jeżeli będziemy szukali nowych pracowników do naszego zespołu, możliwe że skontaktujemy się właśnie z Tobą.</p>
 				<p class="carrier__text">Pola oznaczone * są wymagane.</p>
-				*Imię: <input type="text" required="" name="firstName"><br>
-				Nazwisko: <input type="text" name="secondName"><br>
-				*E-mail: <input type="email" required name="email"><br>
-				Numer telefonu: <input type="tel" name="usrtel"><br>
-				*Data urodzenia: <input type="date" required="" name="birthday"><br>
-				<div class="gender">*Płeć: <br>
-				<input type="radio" required="" name="gender" value="male">Mężczyzna<br>
-				<input type="radio" required="" name="gender" value="female">Kobieta<br>
-				</div><br>
-				*Stanowisko:<select required="" name="position">
-					<option value="kucharz" name="kucharz">Kucharz/Kucharka</option>
-					<option value="kelner" name="kelner">Kelner/Kelnerka</option>
-					<option value="recepcja" name="recepcja">Recepcja</option>
-				</select><br>
-				Jeżeli chcesz dodaj swoje CV
-				<input type="file" name="CV"><br>
-				<textarea cols="30" rows="5" placeholder="Jeżeli chciałbyś/chciałabyś dodać coś od siebie, napisz to właśnie tutaj :)" ></textarea>
-				<div class="buttons">
-				<button class="btn btn1" type="Submit" value="Wyślij formularz">Wyślij formularz</button>
-				<button class="btn btn2" type="reset">Zresetuj</button>
-			</form>
+				<form class="container">
+					<label>*Imię: <input type="text" required="" name="firstName"></label>
+					<label>Nazwisko: <input type="text" name="secondName"></label>
+					<label>*E-mail: <input type="email" required name="email"></label>
+					<label>Numer telefonu: <input type="tel" name="usrtel"></label>
+					<label>*Data urodzenia: <input type="date" required="" name="birthday"></label>
+					<label><div class="gender">*Płeć: <br>
+					<input type="radio" required="" name="gender" value="male">Mężczyzna<br>
+					<input type="radio" required="" name="gender" value="female">Kobieta<br>
+					</div></label>
+					<label>*Stanowisko:<select required="" name="position">
+						<option value="kucharz" name="kucharz">Kucharz/Kucharka</option>
+						<option value="kelner" name="kelner">Kelner/Kelnerka</option>
+						<option value="recepcja" name="recepcja">Recepcja</option>
+					</select></label>
+				</form>
+					Jeżeli chcesz dodaj swoje CV <br>
+					<input type="file" name="CV"> <br>
+					<textarea cols="30" rows="5" placeholder="Jeżeli chciałbyś/chciałabyś dodać coś od siebie, napisz to właśnie tutaj :)" ></textarea>
+					<div class="buttons">
+					<button class="btn btn1" type="Submit" value="Wyślij formularz">Wyślij formularz</button>
+					<button class="btn btn2" type="reset">Zresetuj</button>
+					</div>
+			</div>
 		</div>
 	</section>
 	<section id="contact">

@@ -157,10 +157,14 @@ p {
 }
 /*carrier-------------------------------------------------*/
 .carrier {
+	background-image: url("gallery/job.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-attachment: fixed;
 	display: flex;
 	justify-content: center;
-	font-family: 'Roboto Mono', monospace;
-	margin: 25px;
+	font-family: font-family: 'Ubuntu', sans-serif;
+	margin: 0px;
 }
 .carrier__text {
 	line-height: 30px;
@@ -168,17 +172,32 @@ p {
 .menu__title--carrier {
 	margin-bottom: 0px;
 }
-form {
+.form {
 	padding: 25px;
-	border: 0.5em solid #2f3036;
+	margin: 25px;
+/*	border: 0.5em solid #2f3036;*/
 	border-radius: 25px;
-	background-color: #19c589;
+	background-color: white;
+/*	opacity: 0.8;*/
 	display: flex;
 	flex-direction: column;
 	justify-content: flex-end;
-	width: 600px;
+	width: 60vw;
 }
 
+.container {
+	display: grid;
+	grid-template-columns: auto auto;
+	grid-template-rows: 50px 50px 50px 50px 50px;
+}
+
+@media screen and (max-width: 905px) {
+.container {
+	grid-template-columns: auto;
+	grid-template-rows: 50px 50px 50px 50px 50px 50px 50px 50px;
+}
+
+}
 /*buttons---------------------------------------*/
 .buttons {
 	display: flex;
