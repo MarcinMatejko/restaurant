@@ -165,6 +165,7 @@ p {
 	justify-content: center;
 	font-family: font-family: 'Ubuntu', sans-serif;
 	margin: 0px;
+	padding: 50px;
 }
 .carrier__text {
 	line-height: 30px;
@@ -175,10 +176,8 @@ p {
 .form {
 	padding: 25px;
 	margin: 25px;
-/*	border: 0.5em solid #2f3036;*/
 	border-radius: 25px;
-	background-color: white;
-/*	opacity: 0.8;*/
+	background-color: rgba(255, 255, 255, 0.6);
 	display: flex;
 	flex-direction: column;
 	justify-content: flex-end;
@@ -192,12 +191,28 @@ p {
 }
 
 @media screen and (max-width: 905px) {
+.carrier {
+	padding: 25px;
+}
 .container {
-	grid-template-columns: auto;
-	grid-template-rows: 50px 50px 50px 50px 50px 50px 50px 50px;
+	grid-template-columns: auto auto;
+	grid-template-rows: 50px 50px 50px 50px;
+}
+.form {
+	width: 70vw;
+}
 }
 
+@media screen and (max-width: 600px) {
+.container {
+	grid-template-columns: auto;
+	grid-template-rows: 50px 50px 50px 50px 50px 50px 50px;
 }
+.form {
+	width: 90vw;
+}
+}
+
 /*buttons---------------------------------------*/
 .buttons {
 	display: flex;
@@ -209,7 +224,7 @@ p {
 	background-color:#fff;
 	padding: 10px 20px;
 	font-size: 20px;
-	font-family: 'Roboto Mono', monospace;
+	font-family: font-family: 'Ubuntu', sans-serif;
 	cursor: pointer;
 	margin: 10px;
 	transition: 0.8s;
