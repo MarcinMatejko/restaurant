@@ -5,5 +5,5 @@
 ### Jest to strona fikcyjnej restauracji.
 
 Jest to pierwszy większy projekt jaki wykonałem. \
-Strona zbudowana bez użycia frameworka, ani bootstrapa. Chciałem tutaj poćwiczyć pisanie CSS oraz sematycznie napisanego HTMLa. \
+Strona zbudowana bez użycia frameworka, ani bootstrapa. Chciałem tutaj poćwiczyć pisanie CSSa oraz sematycznego HTMLa. \
 Wspomogłem się jedynie lightboxem do stworzenia galerii zdjęć
