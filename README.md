@@ -2,7 +2,7 @@
 
 ## Strona wykonana przy użyciu czystego HTMLa 5 oraz CSSa 3.
 
-# Jest to strona **fikcyjnej** restauracji.
+# Jest to strona fikcyjnej restauracji.
 
 Jest to pierwszy większy projekt jaki wykonałem. \
 Strona zbudowana bez użycia frameworka, ani bootstrapa. Chciałem tutaj poćwiczyć pisanie CSS oraz sematycznie napisanego HTMLa. \
