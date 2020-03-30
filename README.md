@@ -1,5 +1,9 @@
-# restaurant
+# wersja live: https://restauracjapyszna.netlify.com/
 
-live version of site: https://determined-varahamihira-d56f5d.netlify.com/
+## Strona wykonana przy użyciu czystego HTMLa 5 oraz CSSa 3.
 
-This is my fisrt site I've ever made. It's a simple restaurant site with navbar, menu, galerry, and contact form. It's only HTML and CSS. 
+### Jest to strona fikcyjnej restauracji.
+
+Jest to pierwszy większy projekt jaki wykonałem. \
+Strona zbudowana bez użycia frameworka, ani bootstrapa. Chciałem tutaj poćwiczyć pisanie CSSa oraz sematycznego HTMLa. \
+Wspomogłem się jedynie lightboxem do stworzenia galerii zdjęć
